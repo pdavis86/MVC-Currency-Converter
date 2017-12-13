@@ -90,6 +90,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\favicons\android-chrome-144x144.png" />
+    <Content Include="images\favicons\apple-touch-icon.png" />
+    <Content Include="images\favicons\browserconfig.xml" />
+    <Content Include="images\favicons\favicon-16x16.png" />
+    <Content Include="images\favicons\favicon-32x32.png" />
+    <Content Include="images\favicons\favicon.ico" />
+    <Content Include="images\favicons\mstile-150x150.png" />
+    <Content Include="images\favicons\safari-pinned-tab.svg" />
+    <Content Include="images\spinner.gif" />
+    <Content Include="scripts\extensions.js" />
     <Content Include="scripts\main.js" />
     <Content Include="styles\main.css" />
     <Content Include="Global.asax" />
@@ -109,6 +119,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="images\favicons\manifest.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

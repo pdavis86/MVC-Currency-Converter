@@ -2,11 +2,29 @@
     ViewBag.Title = "Currency Converter";
 }
 
+<h1>Currency Converter</h1>
+
 <form class="currency-converter-form">
-    <input type="number" placeholder="GBP" class="currency-from" />
-    <input type="number" placeholder="EUR" class="currency-to" />
+    <div>
+        Your rate: <span class="currency-converter-rate"><img src="~/images/spinner.gif" alt="Loading..." /></span>
+    </div>
+    <div class="subtle">
+        Last updated: <span class="currency-converter-rate-date"><img src="~/images/spinner.gif" alt="Loading..." /></span>
+    </div>
+    <div class="subtle">
+        Provided by <a href="http://fixer.io/" target="_blank">Fixer.io</a>
+    </div>
+
+    <div>
+        <input type="number" class="currency-from" />
+        <span class="currency-from-label"><img src="~/images/spinner.gif" alt="Loading..." /></span>
+    </div>
+    <div>
+        <input type="number" class="currency-to" />
+        <span class="currency-to-label"><img src="~/images/spinner.gif" alt="Loading..." /></span>
+    </div>
+
+    <div class="error"></div>
+
 </form>
 
-@section Scripts {
-
-}
